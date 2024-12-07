@@ -1,19 +1,19 @@
 CREATE TABLE usuarios(
-    id int auto_increment primary key,
+    id int primary key AUTOINCREMENT,
     nome
 );
 
 CREATE TABLE produtos(
-    id int auto_increment primary key,
+    id int primary key AUTOINCREMENT,
     nome TEXT NOT NULL
 );
 
 CREATE TABLE setores(
-    id int auto_increment primary key,
+    id int primary key AUTOINCREMENT,
     nome TEXT NOT NULL
 );
 
 CREATE TABLE categorias(
-    id int auto_increment primary key,
+    id int primary key AUTOINCREMENT,
     nome TEXT NOT NULL
 );

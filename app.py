@@ -1,10 +1,9 @@
-from flask import Flask
-
-app = Flask(__name__)
+from helpers.application import app
+from controllers.UsuarioController import *
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'API para supermercado!'
 
 if __name__ == '__main__':
     app.run(debug=True)
